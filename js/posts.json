@@ -1,0 +1,176 @@
+let data = [{
+    id: 0,
+    img: "img/img7.png",
+    type: "fruit",
+    name: "Alma",
+    cost: "img/Group 413.png"
+},
+
+{
+    id: 1,
+    img: "img/img8.png",
+    type: "fruit",
+    name: "Gavalı",
+    cost: "img/Group 413.png"
+},
+
+{
+    id: 2,
+    img: "img/img9.png",
+    type: "fruit",
+    name: "Armud",
+    cost: "img/Group 413.png"
+},
+
+{
+    id: 3,
+    img: "img/img10.png",
+    type: "fruit",
+    name: "Gilas",
+    cost: "img/Group 413.png"
+},
+
+{
+    id: 4,
+    img: "img/img11.png",
+    type: "other",
+    name: "Qoz",
+    cost: "img/Group 413.png"
+},
+
+{
+    id: 5,
+    img: "img/img12.png",
+    type: "fruit",
+    name: "Şaftalı",
+    cost: "img/Group 413.png"
+},
+
+{
+    id: 6,
+    img: "img/img13.png",
+    type: "grain",
+    name: "Taxıl",
+    cost: "img/Group 413.png"
+},
+
+{
+    id: 7,
+    img: "img/img14.png",
+    type: "fruit",
+    name: "Portağal",
+    cost: "img/Group 413.png"
+},
+
+{
+    id: 8,
+    img: "img/img15.png",
+    type: "grain",
+    name: "Müxtəlif tinglər",
+    cost: "img/Group 413.png"
+},
+
+{
+    id: 9,
+    img: "img/img16.png",
+    type: "vegetable",
+    name: "Pomidor",
+    cost: "img/Group 413.png"
+},
+
+
+
+
+
+]
+
+let data2 = [
+    
+        {
+            id: 0,
+            img: "img/img7.png",
+            type: "fruit",
+            name: "Alma",
+            cost: "img/Group 413.png"
+        },
+        
+        {
+            id: 1,
+            img: "img/img8.png",
+            type: "fruit",
+            name: "Gavalı",
+            cost: "img/Group 413.png"
+        },
+        
+        {
+            id: 2,
+            img: "img/img9.png",
+            type: "fruit",
+            name: "Armud",
+            cost: "img/Group 413.png"
+        },
+        
+        {
+            id: 3,
+            img: "img/img10.png",
+            type: "fruit",
+            name: "Gilas",
+            cost: "img/Group 413.png"
+        },
+        {
+            id: 4,
+            img: "img/img12.png",
+            type: "fruit",
+            name: "Şaftalı",
+            cost: "img/Group 413.png"
+        },
+
+        {
+            id: 5,
+            img: "img/img14.png",
+            type: "fruit",
+            name: "Portağal",
+            cost: "img/Group 413.png"
+        },
+
+        
+    
+]
+
+let data3 = [
+    {
+        id: 0,
+        img: "img/img16.png",
+        type: "vegetable",
+        name: "Pomidor",
+        cost: "img/Group 413.png"
+    },
+]
+
+let data4 = [
+    {
+        id: 0,
+        img: "img/img15.png",
+        type: "grain",
+        name: "Müxtəlif tinglər",
+        cost: "img/Group 413.png"
+    },
+
+    {
+        id: 1,
+        img: "img/img13.png",
+        type: "grain",
+        name: "Taxıl",
+        cost: "img/Group 413.png"
+    },
+]
+
+let data5 = [
+    {
+        id: 0,
+        img: "img/img11.png",
+        type: "other",
+        name: "Qoz",
+        cost: "img/Group 413.png"
+    },
+]
