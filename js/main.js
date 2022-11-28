@@ -1,6 +1,29 @@
 $(document).ready(function () {
 
 
+
+
+
+    	
+	// $("a#single_image").fancybox();
+	
+	// /* Using custom settings */
+	
+	// $("a#inline").fancybox({
+	// 	'hideOnContentClick': true
+	// });
+
+	// /* Apply fancybox to multiple items */
+	
+	// $("a.group").fancybox({
+	// 	'transitionIn'	:	'elastic',
+	// 	'transitionOut'	:	'elastic',
+	// 	'speedIn'		:	600, 
+	// 	'speedOut'		:	200, 
+	// 	'overlayShow'	:	false
+	// });
+
+
     $("#md-icons").click(function(){
         $(".navbar-mobile-liner").css({left: "0"})
         $("body").css({overflow: "hidden"})
@@ -8,7 +31,7 @@ $(document).ready(function () {
 
     $("#removeMenu").click(function(){
       $(".navbar-mobile-liner").css({left: "-100%"})
-      $("body").css({overflow: "visible"})
+      $("body").css({"overflow-y": "visible"})
     });
 
     $(".search").click(function(){
@@ -22,6 +45,17 @@ $(document).ready(function () {
     let partData5 = $("#products4");
 
 
+
+
+    $("#products0").click(function(){
+      $(".products-liner-box").addClass("products-liner-active-box")
+      $(".products-liner").addClass("products-liner-active")
+    })
+
+    $("#removebox").click(function(){
+      $(".products-liner-box").removeClass("products-liner-active-box")
+      $(".products-liner").removeClass("products-liner-active")
+    })
 
     let part = data;
 
@@ -96,6 +130,17 @@ $(document).ready(function () {
         })
     }
 
+    // let slides = $(".mySlides");
+    // let dot = $(".dot")
+    // for(let i = 0; i < slides.length; i++){
+    //   dot[i].click(function(){
+    //     if($(".slideshow-container").indexOf(slides[i]) == $(".dot-box").indexOf(dot[i])){
+    //       slides[i].addClass("mySlides-active")
+    //     }
+    //     slides[i].removeClass("mySlides-active")
+    //   })
+    // }
+
     
 
 
@@ -136,3 +181,30 @@ function scrollFunction() {
       }
     }
   }
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" fade-active", "");
+  }
+  slides[slideIndex-1].style.display = "flex";  
+  dots[slideIndex-1].className += " fade-active";
+}

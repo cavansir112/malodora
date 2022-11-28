@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/posts.json"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <title>malodora</title>
+</head>
+<body>
+
+    <div class="containere">
+        <div class="component">
+            <div class="navbar-mobile-liner">
+                <div class="navbar-mobile">
+                    <div class="w-100 d-flex justify-content-between ">
+                        <a href="index.html"><div class=""><img class="m-3" src="img/Group 1.png" alt=""></div></a>
+                        <i id="removeMenu" class="fas fa-times m-3"></i>
+                    </div>
+                    <div class="w-100 d-flex justify-content-between">
+                        <div class="d-felx justify-content-between  w-100 position-relative">
+                            
+                            <input class="mySearch" type="text">
+                            
+                            <i id="mobileSearch" class="fas fa-search search"></i>
+                        </div>
+                    </div>
+                    <ul id="ulSearch" class="d-flex flex-column mt-5">
+                        <li>
+                            <a href="about-us.html">Biz kimik?</a>
+                        </li>
+                        <li>
+                            <a href="gardens.html">Bağlarımız</a>
+                        </li>
+                        <li>
+                            <a href="poducts.html">Məhsullarımız</a>
+                        </li>
+                        <li>
+                            <a href="servics.html">Xidmətlərimiz</a>
+                        </li>
+                        <li>
+                            <a href="social.html">Sosial məsuliyyət</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Əlaqə</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up "></i></button>
+            <div class="component-liner"></div>
+            <div class="container">
+                <div class="navbar">
+                    <div class="navbarr">
+                        <h6><i class="fas fa-phone"></i> +994 (70) 5555777</h6>
+                        <h6><i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-linkedin-in"></i> 
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-youtube"></i>
+                        </h6>
+                    </div>
+                    <div class="navbar-navv">
+                        <a href="index.html"><img src="img/Group 1.png" alt=""></a>
+                         
+                        <i id="md-icons" class="fas fa-bars"></i>
+                        <div class=" navbar-list ">
+                            <ul  class="d-flex mb-0">
+                                <li>
+                                    <a href="about-us.html">Biz kimik?</a>
+                                </li>
+                                <li>
+                                    <a href="gardens.html">Bağlarımız</a>
+                                </li>
+                                <li>
+                                    <a href="poducts.html">Məhsullarımız</a>
+                                </li>
+                                <li>
+                                    <a href="servics.html">Xidmətlərimiz</a>
+                                </li>
+                                <li>
+                                    <a href="social.html">Sosial məsuliyyət</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Əlaqə</a>
+                                </li>
+                            </ul>
+                            <div class="d-felx position-relative">
+                                <div class="menu-search">
+                                    <input class="mySearch" type="text">
+                                </div>
+                                <i id="myicons"  class="fas fa-search search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-box">
+                    <div id="carouselExampleControls" class="carousel slide box-slidee" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="header-boxxx d-felx">
+                                <div class=" col-4 box ">
+                                    <div class="position-box1 about-box-img">
+                                        <!-- <img src="img/Rectangle 29.png" alt=""> -->
+                                    </div>
+                                    <img class="position-img" src="img/Group 435.png" alt="">
+                                    <img class="position-img2" src="img/img3.png" alt="">
+                                    <div class="position-text">
+                                        <h3>Meyvələr</h3>
+                                        <h6>Daha cox...</h6>
+                                    </div>
+                                </div>
+                                <div class=" col-4 box">
+                                    <div class="position-box about-box-img">
+                                        <!-- <img src="img/Rectangle 30.png" alt=""> -->
+                                    
+                                        <img class="position-box-img" src="img/Group 434.png" alt="">
+                                        <img class="position-box-img2" src="img/unnamed (3).png" alt="">
+                                        <div class="position-box-text">
+                                            <h3>Tərəvəzlər</h3>
+                                            <h6>Daha cox...</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-4 box ">
+                                    <div class="position-box2 about-box-img">
+                                        <!-- <img src="img/Rectangle 31.png" alt=""> -->
+                                    
+                                        <img class="position-box2-img" src="img/Group 435.png" alt="">
+                                        <img class="position-box2-img2" src="img/flour-clip-art-21.png" alt="">
+                                        <div class="position-box2-text">
+                                            <h3>Taxıl</h3>
+                                            <h6>Daha cox...</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item ">
+                            <div class="header-boxxx">
+                                <div class=" col-4 box ">
+                                    <div class="position-box1 about-box-img">
+                                        <!-- <img src="img/Rectangle 29.png" alt=""> -->
+                                    </div>
+                                    <img class="position-img" src="img/Group 435.png" alt="">
+                                    <img class="position-img2" src="img/img3.png" alt="">
+                                    <div class="position-text">
+                                        <h3>Meyvələr</h3>
+                                        <h6>Daha cox...</h6>
+                                    </div>
+                                </div>
+                                <div class=" col-4 box">
+                                    <div class="position-box about-box-img">
+                                        <!-- <img src="img/Rectangle 30.png" alt=""> -->
+                                    
+                                        <img class="position-box-img" src="img/Group 434.png" alt="">
+                                        <img class="position-box-img2" src="img/unnamed (3).png" alt="">
+                                        <div class="position-box-text">
+                                            <h3>Tərəvəzlər</h3>
+                                            <h6>Daha cox...</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-4 box ">
+                                    <div class="position-box2 about-box-img">
+                                        <!-- <img src="img/Rectangle 31.png" alt=""> -->
+                                    
+                                        <img class="position-box2-img" src="img/Group 435.png" alt="">
+                                        <img class="position-box2-img2" src="img/flour-clip-art-21.png" alt="">
+                                        <div class="position-box2-text">
+                                            <h3>Taxıl</h3>
+                                            <h6>Daha cox...</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="header-boxxx">
+                                <div class=" col-4 box ">
+                                    <div class="position-box1 about-box-img">
+                                        <!-- <img src="img/Rectangle 29.png" alt=""> -->
+                                    </div>
+                                    <img class="position-img" src="img/Group 435.png" alt="">
+                                    <img class="position-img2" src="img/img3.png" alt="">
+                                    <div class="position-text">
+                                        <h3>Meyvələr</h3>
+                                        <h6>Daha cox...</h6>
+                                    </div>
+                                </div>
+                                <div class=" col-4 box">
+                                    <div class="position-box about-box-img">
+                                        <!-- <img src="img/Rectangle 30.png" alt=""> -->
+                                    
+                                        <img class="position-box-img" src="img/Group 434.png" alt="">
+                                        <img class="position-box-img2" src="img/unnamed (3).png" alt="">
+                                        <div class="position-box-text">
+                                            <h3>Tərəvəzlər</h3>
+                                            <h6>Daha cox...</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" col-4 box ">
+                                    <div class="position-box2 about-box-img">
+                                        <!-- <img src="img/Rectangle 31.png" alt=""> -->
+                                    
+                                        <img class="position-box2-img" src="img/Group 435.png" alt="">
+                                        <img class="position-box2-img2" src="img/flour-clip-art-21.png" alt="">
+                                        <div class="position-box2-text">
+                                            <h3>Taxıl</h3>
+                                            <h6>Daha cox...</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>                    
+                </div>
+                <!-- ===================== slide ======================= -->
+
+                    <div id="carouselExampleIndicators" class="carousel slide box-slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="  box ">
+                                <div class="position-box1 about-box-img">
+                                    <!-- <img src="img/Rectangle 29.png" alt=""> -->
+                                
+                                    <img class="position-img" src="img/Group 435.png" alt="">
+                                    <img class="position-img2" src="img/img3.png" alt="">
+                                    <div class="position-text">
+                                        <h3>Meyvələr</h3>
+                                        <h6>Daha cox...</h6>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class=" box">
+                                <div class="position-box about-box-img">
+                                    <!-- <img src="img/Rectangle 30.png" alt=""> -->
+                                
+                                    <img class="position-box-img" src="img/Group 434.png" alt="">
+                                    <img class="position-box-img2" src="img/unnamed (3).png" alt="">
+                                    <div class="position-box-text">
+                                        <h3>Tərəvəzlər</h3>
+                                        <h6>Daha cox...</h6>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="  box ">
+                                <div class="position-box2 about-box-img">
+                                    <!-- <img src="img/Rectangle 31.png" alt=""> -->
+                                
+                                    <img class="position-box2-img" src="img/Group 435.png" alt="">
+                                    <img class="position-box2-img2" src="img/flour-clip-art-21.png" alt="">
+                                    <div class="position-box2-text">
+                                        <h3>Taxıl</h3>
+                                        <h6>Daha cox...</h6>+
+                                    </div>
+                                </div>
+                            </div>        
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+
+                <!-- ===================== slide ======================= -->
+            </div>
+            <div class="companent-about mt-5">
+                <img class="about-img" src="img/markus-spiske-k2BDz7QXuJM-unsplash.png" alt="">
+                <div class="container">
+                    <div class="d-lg-flex d-md-column">
+                        <div class="col-lg-6 col-md-12">
+                            
+                        </div>
+                        <div class="col-lg-6 col-md-12 about">
+                            <h1>Biz kimik?</h1>
+                            <img src="img/Group 11.png" alt="">
+                            <p>Əslində hər şey illər əvvəl İsmayıllı rayonunda  ailəvi gəzintidə olduğumuz zaman baş verdi. İsmayıllı rayonunun füsunkar təbiətinin gözəlliyi bizim bir gün burda kənd təsərufatı ilə məşqul olmaq arzusunu oyatdı. Daha sonra dostlarımızla bu məsələni müzakirə edərək İsmayıllıda təsəruffat qurmağa qərar verdik.<br>
+                                Böyük uğurlar vaxtında və yerində verilən qərarlarla çox bağlıdır.<br>
+                                Elə bizdə ilk səfərdə qərar verdik və başladıq.İllər çox serətli keçdi.Bizdə böyümədə zamanın sürətindən geri qalmadıq.Qısa zaman müddətində əldə etdiyimiz uğurlar və daha sürətlə böyüməyə davam etməyimiz işimizə olan sevginin göstəricisidir.<br>
+                                Alma,armud,nektarin,gavalı,gilas və qoz yetişdirməklə qalmadıq,tingçilik və toxumçuluqla məhsul sıramızı genişləndirdik.<br>
+                                qısa zamanda ən son texnoloji yeniliklərlə damla suvarma sistemlərinin qurulması BAĞLARIN layihələndirilməsi,salınması kimi çətin işlərin ödəsindən uğurla gəldik.<br>
+                                2022 ci ildə əsas  hədəfimiz brendimizin "made in AZERBAİJAN" adına layiq ölkə kənarında rəflərdə görünməsidir.<br>
+                                növbəti hədəfləri sizlərlə paylaşmaq arzusuyla.<br>
+                                hörmətlə<br>
+                                MELADORA kollektivi
+                            </p>
+                            <div class="d-flex align-items-center mt-3">
+                                <img class="log-img " src="img/Path 37.png" alt="">
+                                <img src="img/Group 6.png" alt="">
+                                <img class="log-img " src="img/Path 37.png" alt="">
+                            </div>
+                            <div class="d-flex w-100 justify-content-around mt-3">
+                                <div class="affairs">
+                                    <img src="img/Path 24.png" alt="">
+                                    <h6>Organik</h6>
+                                </div>
+                                <div class="affairs">
+                                    <img src="img/Path 34.png" alt="">
+                                    <h6>Məmnuniyyət</h6>
+                                </div>
+                                <div class="affairs">
+                                    <img src="img/Path 29.png" alt="">
+                                    <h6>Lorem</h6>
+                                </div>
+                                <div class="affairs">
+                                    <img src="img/Group 4.png" alt="">
+                                    <h6>Yüksək keyfiyyət</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="component-gardens ">
+                    <h1>Bağlarımız</h1>
+                    <img src="img/Group 11.png" alt="">
+                    <div class=" mt-4 w-100  component-gardenss d-flex align-items-end">
+                        <div class="col-lg-4 col-md-6 col-sm-12  about-gardens">
+                            <img src="img/img5.png" alt="">
+                            <div class="about-gardens-liner">
+                            </div>
+                            
+                            <div class="gardens-text w-100 h-100 d-felx flex-column align-items-center justify-content-center">
+                                <h1>02</h1>
+                                <h4>BAĞ</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+                            </div>
+                        </div>
+
+                        <div  class="col-lg-4 col-md-6 col-sm-12  about-gardens gardens-active">
+                            <img src="img/img4.png" alt="">
+                            <div class="about-gardens-liner">
+                            </div>
+                            <div class="gardens-text w-100 h-100 d-felx flex-column align-items-center justify-content-center">
+                                <h1>01</h1>
+                                <h4>BAĞ</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-sm-12  about-gardens">
+                            <img src="img/img6.png" alt="">
+                            <div class="about-gardens-liner">
+                            </div>
+                            <div class="gardens-text w-100 h-100 d-felx flex-column align-items-center justify-content-center">
+                                <h1>03</h1>
+                                <h4>BAĞ</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                         <div class="component-products">
+                        <h1>Məhsullarımız</h1>
+                        <img src="img/Group 11.png" alt="">
+                        <ul id="productsLis">
+                            <li  class="active nav0">Hamısı</li>
+                            <li  value="fruit" class=" nav1">Meyvələr</li>
+                            <li value="vegetable" class=" nav2">Tərəvəzlər</li>
+                            <li value="grain" class=" nav3">Taxıllar</li>
+                            <li value="other" class=" nav4">Digər</li>
+                        </ul>
+                        <div id="products0" class="products-box products-active mt-2">
+                            
+                        </div>
+                        <div id="products1" class="products-box mt-2">
+                            
+                        </div>
+                        <div id="products2" class="products-box mt-2">
+                            
+                        </div>
+                        <div id="products3" class="products-box mt-2 ">
+                            
+                        </div>
+                        <div id="products4" class="products-box mt-2">
+                            
+                        </div>
+                    </div>
+                    <div class="component-blogs mt-4">
+                        <div class="component-blogss">
+                            <h1>Bloglar</h1>
+                            <img src="img/Group 11.png" alt="">
+                        </div>
+                        <div class=" mt-5   blogs-text">
+                            <div class=" mb-md-4 mb-sm-4 col-lg-4 col-md-6 col-ms-12 d-flex justify-content-center">
+                                <div class="blogs">
+                                    <img class="w-100" src="img/img17.png" alt="">
+                                    <h6>Lorem İpsem Doler Sit Amet</h6>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+                                </div>
+                            </div>
+                            <div class=" mb-md-4 mb-sm-4 col-lg-4 col-md-6 col-ms-12 d-flex justify-content-center">
+                                <div class="blogs">
+                                    <img class="w-100" src="img/close-up-woman-harvesting-garden.png" alt="">
+                                    <h6>Lorem İpsem Doler Sit Amet</h6>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+                                </div>
+                            </div>
+                            <div class=" mb-md-4 mb-sm-4 col-lg-4 col-md-6 col-ms-12 d-flex justify-content-center">
+                                <div class="blogs">
+                                    <img class="w-100" src="img/markus-spiske-sFydXGrt5OA-unsplash.png" alt="">
+                                    <h6>Lorem İpsem Doler Sit Amet</h6>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="component-footer about-footer d-flex ">
+                        <div class="col-5 d-lg-flex d-none align-items-center justify-content-center">
+                            <a href="index.html"><img src="img/Group 418.png" alt=""></a>
+                        </div>
+                        <div class="col-lg-7 col-12">
+                            <div class="col-12 d-flex">
+                                <div class="col-4">
+                                    <h6>Menyular</h6>
+                                    <ul>
+                                        <li><a href="about-us.html">Biz kimik?</a></li>
+                                        <li><a href="gardens.html">Bağlarımız</a></li>
+                                        <li><a href="poducts.html">Məhsullarımız</a></li>
+                                        <li><a href="servics.html">Xidmətlərimiz</a></li>
+                                        <li><a href="social.html">Sosial məsuliyyət</a></li>
+                                        <li><a href="contact.html">Əlaqə</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <h6>Faydalı linklər</h6>
+                                    <ul>
+                                        <li><a href="">Tez-tez soruşulanlar</a></li>
+                                        <li><a href="">Karyera</a></li>
+                                        <li><a href="">Xidmət şəbəkəsi</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-4">
+                                    <h6>Menyular</h6>
+                                    <ul>
+                                        <li><a href="">Təhlükəsizlik</a></li>
+                                        <li><a href="">Şərtlər və qaydalar</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-so">
+                        Copyright
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="position-relative">
+                <img class="footer-img" src="img/ezgif.com-gif-maker (1).png" alt="">
+            </div> -->
+        </div>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
